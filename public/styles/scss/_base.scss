@@ -1,0 +1,58 @@
+// Colors
+$clr-primary-100: #f9f9fd;
+$clr-primary-200: #e0e3fe;
+$clr-primary-300: #dedeff;
+$clr-primary-400: #6575f8;
+
+$clr-black-100: #898989;
+$clr-black-200: #1c1c1c;
+$clr-black-300: #121212;
+
+$clr-white-100: #ffffff;
+$clr-white-200: #f2f2f2;
+
+// Border Radius
+$border-radius: 8px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $clr-white-100;
+}
+
+.clr-primary {
+  color: $clr-primary-400;
+}
+
+.trans-status {
+  display: flex;
+  padding: 8px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 50px;
+
+  &--pending {
+    background: #fffde6;
+    color: #ffef00;
+  }
+
+  &--matched {
+    background: #e9fbef;
+    color: #1ed760;
+  }
+
+  &--mismatched {
+    background: #fde9e9;
+    color: #ec1f26;
+  }
+
+  &--partial-match {
+    background: #f0f1fe;
+    color: #6575f8;
+  }
+}

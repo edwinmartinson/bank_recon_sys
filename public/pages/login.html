@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recon Sys</title>
+    <meta
+      name="description"
+      content="A Reconciliation system to ensure third parties receive transactions details along with the correct amount."
+    />
+    <meta
+      name="keywords"
+      content="Reconciliation, Transactions, Banking, System"
+    />
+    <meta name="author" content="Edwin Martinson" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__content nav__content--justify-center">
+        <h1 class="ft-h2-medium nav__content-title">
+          <span class="clrAccent clr-primary">USG</span> Reconciler
+        </h1>
+      </div>
+    </nav>
+    <nav class="nav--clone"></nav>
+    <main class="main main--login">
+      <div class="login">
+        <div class="login__header">
+          <svg width="22" height="24" viewBox="0 0 22 24" fill="none">
+            <path
+              d="M2.88 0C1.28942 0 0 1.28942 0 2.88V20.16C0 21.7506 1.28942 23.04 2.88 23.04H9.98486C8.56723 21.7251 7.68 19.8462 7.68 17.76C7.68 13.7836 10.9036 10.56 14.88 10.56C15.7215 10.56 16.5294 10.7044 17.28 10.9697V2.88C17.28 1.28942 15.9906 0 14.4 0H2.88ZM4.32 12.48C3.52471 12.48 2.88 11.8353 2.88 11.04C2.88 10.2447 3.52471 9.6 4.32 9.6C5.11526 9.6 5.76 10.2447 5.76 11.04C5.76 11.8353 5.11526 12.48 4.32 12.48ZM21.12 17.76C21.12 21.2063 18.3263 24 14.88 24C11.4337 24 8.64 21.2063 8.64 17.76C8.64 14.3137 11.4337 11.52 14.88 11.52C18.3263 11.52 21.12 14.3137 21.12 17.76ZM11.04 17.28C10.7749 17.28 10.56 17.4949 10.56 17.76C10.56 18.0251 10.7749 18.24 11.04 18.24H17.5612L15.5005 20.3005C15.3132 20.488 15.3132 20.792 15.5005 20.9795C15.688 21.1668 15.992 21.1668 16.1795 20.9795L19.0595 18.0995C19.1054 18.0534 19.1402 18.0004 19.1636 17.9437C19.1867 17.888 19.1996 17.8269 19.2 17.7629V17.76V17.7571C19.1992 17.6352 19.1524 17.5136 19.0595 17.4205L16.1795 14.5405C15.992 14.3532 15.688 14.3532 15.5005 14.5405C15.3132 14.728 15.3132 15.032 15.5005 15.2195L17.5612 17.28H11.04Z"
+              fill="#6575F8"
+            />
+          </svg>
+          <h1 class="ft-h1-regular">login</h1>
+        </div>
+
+        <p>Input your X100 details below to access the reconciler</p>
+
+        <form action="/app" class="login__form">
+          <div class="field__container">
+            <label for="fieldG" class="field__label ft-txt-medium">
+              Email
+            </label>
+            <input
+              type="email"
+              name="#"
+              id="fieldG"
+              class="field"
+              placeholder="eg: youremail@usg.com"
+            />
+            <p class="field__error-msg ft-subtxt-medium"></p>
+          </div>
+          <div class="field__container">
+            <label for="fieldG" class="field__label ft-txt-medium">
+              Password
+            </label>
+            <input
+              type="password"
+              name="#"
+              id="fieldG"
+              class="field"
+              placeholder="eg: ************"
+            />
+            <p class="field__error-msg ft-subtxt-medium"></p>
+          </div>
+          <p class="ft-txt-medium">Got any questions?</p>
+        </form>
+        <div class="btn btn--filled login__btn">
+          <p class="ft-h6-regular">login</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
